@@ -127,7 +127,7 @@ body{
 
 @media screen and (max-width:767px){
     .backgrroundH2{
-        font-size: 20px;
+        font-size: 10px;
         line-height: 25px;
     }
         .btn-visit{
@@ -165,4 +165,5 @@ body{
     }
 
 }
+
 
