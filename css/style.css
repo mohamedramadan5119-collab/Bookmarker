@@ -126,6 +126,10 @@ body{
 
 
 @media screen and (max-width:767px){
+    .backgrroundH2{
+        font-size: 20px;
+        line-height: 25px;
+    }
         .btn-visit{
         background-color: #9eb23b;
         color: white;
@@ -161,3 +165,4 @@ body{
     }
 
 }
+
