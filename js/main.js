@@ -49,8 +49,8 @@ function displayBookmarke(){
     for(var i=0; i<allBookmarks.length; i++){
         cartona+=`
                   <tr class="fontTr">
-                    <td class="indexCss">${allBookmarks[i].index}</td>
-                    <td class="WebsiteNameCss">${allBookmarks[i].WebsiteName}</td>
+                    <td>${i + 1}</td>
+                    <td>${allBookmarks[i].WebsiteName}</td>
                     <td>
                       <a href="${allBookmarks[i].VisitURL}" target="_blank">
                         <button class="btn btn-visit">
