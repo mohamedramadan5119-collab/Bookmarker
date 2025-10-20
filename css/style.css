@@ -1,0 +1,167 @@
+body{
+    background-color: #F7ECDE;
+}
+
+.h1book{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgb(53, 46, 40);
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    z-index: 5;
+}
+
+.h1book::before{
+    content: "";
+    background-color: #FEC260;
+    position: absolute;
+    width: 100%;
+    height: 16px;
+    bottom: 5px;
+    z-index: -1;
+    transition: all 0.3s ease;  
+}
+
+.h1book:hover::before{
+    height: 59%;
+    
+    
+}
+
+
+.Bookmarkbody{
+    border-top: 2px dotted;
+    border-bottom: 2px dotted;
+    border-color: #352e28;
+}
+
+.backgrroundH2{
+    background-image: linear-gradient(to right,  #3FA65C  , #d3c959);
+    font-family: "Righteous", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    background-clip: text;
+    color: transparent;
+}
+
+
+.btn-submit{
+    background-color: #f16038;
+    color: white;
+    font-family: "PT Sans Caption", sans-serif;
+    padding: 6px 50px;
+}
+
+.btn-submit:hover{
+    background-color: #d1512d;
+    color: white;
+}
+
+.btn-Edit{
+    background-color: #FFE000;
+    color: white;
+    font-family: "PT Sans Caption", sans-serif;
+    padding: 6px 50px;
+}
+
+.btn-Edit:hover{
+    background-color: #dbc201;
+    color: white;
+}
+
+.form-control:focus{
+    border-color: #f16038;
+    box-shadow: 0 0 0 0.2rem #fec1606b;
+    
+}
+
+
+.btn-visit{
+    background-color: #9eb23b;
+    color: white;
+    padding: 6px 20px;
+}
+.btn-visit:hover{
+    background-color: #8a9e23;
+    color: white;
+}
+
+
+.btnEdit1{
+    background-color: #FFE000;
+    color: white;
+}
+
+.btnEdit1:hover{
+    background-color: #e2c801;
+    color: white;
+}
+.btn-delete{
+    background-color: #eb1d36;
+    color: white;
+    padding: 6px 20px;
+}
+.btn-delete:hover{
+    background-color: #d30820;
+    color: white;
+}
+
+.fontTr{
+    font-family: "PT Sans Caption", sans-serif;
+}
+
+.alert-css{
+    margin-top: 10px;
+    background-color: #FEC260;
+    color: #721c24;
+    font-size: 20px;
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+    .indexCss{
+        position: relative;
+        color: brown;
+        background-color: red;
+    }
+        .btn-visit{
+        background-color: #9eb23b;
+        color: white;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+    .btn-visit:hover{
+        background-color: #8a9e23;
+        color: white;
+    }
+
+
+    .btnEdit1{
+        background-color: #FFE000;
+        color: white;
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .btnEdit1:hover{
+        background-color: #e2c801;
+        color: white;
+    }
+    .btn-delete{
+        background-color: #eb1d36;
+        color: white;
+        padding: 6px 20px;
+        font-size: 12px;
+    }
+    .btn-delete:hover{
+        background-color: #d30820;
+        color: white;
+    }
+}
