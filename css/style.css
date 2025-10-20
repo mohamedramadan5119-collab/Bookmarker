@@ -126,11 +126,6 @@ body{
 
 
 @media screen and (max-width:767px){
-    .indexCss{
-        position: relative;
-        color: brown;
-        background-color: red;
-    }
         .btn-visit{
         background-color: #9eb23b;
         color: white;
@@ -164,4 +159,5 @@ body{
         background-color: #d30820;
         color: white;
     }
+
 }
